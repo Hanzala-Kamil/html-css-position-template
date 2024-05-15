@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-bg{
+    width: 100%;
+    background-color:#2A304D;
+    padding-bottom: 10px;
+}
+.border-bottem{
+    border-bottom: 1px solid white;
+}
+.nav-bar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo a{
+    font-size: 50px;
+    color: #F6D800;
+    text-decoration: none;
+}
+.bars i{
+    font-size: 30px;
+    color: white;
+}
+.container-1{
+    width: 80%;
+    /* width: 1000px; */
+    margin: 30px auto 0;
+    display: flex;
+    position: relative;
+    height: 629px;
+}
+.card{
+    width: 600px;
+    height: 387px;
+    z-index: 1;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    background-color: white;
+}
+.card h1{
+    width: 90%;
+    font-size: 45px;
+    border-bottom: 5px solid #F6D800;
+    padding: 20px;
+}
+.card p{
+    font-size: 19px;
+    padding: 20px;
+    line-height: 1.5;
+}
+.card button{
+    background-color: #2A304D;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: large;
+}
+.img-1 img{
+    width: 550px;
+    height: 629px;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+.container-2{
+    width: 80%;
+    /* width: 1000px; */
+    margin: 0 auto;
+    display: flex;
+    height: 850px;
+    position: relative;
+}
+.img-2 img{
+    width: 570px;
+    height: 497px;
+    position: absolute;
+    left: 100px;
+    top: -80px;
+    z-index: 1;
+}
+.text{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+.text li{
+   padding: 5px;
+   font-style: italic;
+   font-size: 20px;
+}
+.bg-box{
+    width: 570px;
+    height: 437px;
+    background-color: #F6D800;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    z-index: 0;
+}
+.bg-line{
+    width: 20px;
+    height: 300px;
+    background-color: #F6D800;
+    position: absolute;
+    right: 50px;
+    top: -80px;
+}
+.img-3 img{
+    width: 493px;
+    height: 609px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    z-index: 2;
+}
+.svg{
+    background:url('./s_100.png');
+    height: 150px;
+    width: 650px;
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+}
+.bg-clr-logo{
+    background-color: #2A304D;
+    text-align: center;
+    margin-top: 100px;
+}
+.bg-clr-logo img{
+    padding: 40px 0 100px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer p{
+    padding: 20px 0;
+}
